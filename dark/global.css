@@ -18,12 +18,13 @@ body.dark
   background: var(--bg) !important;
 }
 /* Sider Bar, collection view blocks */
-body.dark *[style*="background: rgb(55, 60, 63);"],
+
 body.dark *[style*="background: rgb(63, 68, 71)"],
 body.dark *[style*="background-color: rgb(64, 68, 71);"] {
   background: var(--bg-light) !important;
 }
 /* Collection blocks light background */
+body.dark *[style*="background: rgb(55, 60, 63);"],
 body.dark *[style*="background: rgb(80, 85, 88)"] {
   background: var(--bg-lighter) !important;
 }
