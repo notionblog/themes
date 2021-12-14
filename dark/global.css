@@ -1,0 +1,156 @@
+/* Text blue */
+body.dark *[style*="color: rgb(46, 170, 220);"] {
+  color: var(--main) !important;
+}
+body.dark *[style*="background: rgb(46, 170, 220);"] {
+  background: var(--main) !important;
+}
+/* Fill blue*/
+body.dark *[style*="fill: rgb(46, 170, 220);"] {
+  fill: var(--main) !important;
+}
+
+/* Main background */
+body.dark div[style*="background: rgb(47, 52, 55);"],
+body.dark div[style*="background-color: rgb(47, 52, 55)"],
+body.dark
+  div[style*="background: linear-gradient(rgba(47, 52, 55, 0) 0px, rgb(47, 52, 55) 10px, rgb(47, 52, 55) 100%);"] {
+  background: var(--bg) !important;
+}
+/* Sider Bar, collection view blocks */
+body.dark *[style*="background: rgb(55, 60, 63);"],
+body.dark *[style*="background: rgb(63, 68, 71)"],
+body.dark *[style*="background-color: rgb(64, 68, 71);"] {
+  background: var(--bg-light) !important;
+}
+/* Collection blocks light background */
+body.dark *[style*="background: rgb(80, 85, 88)"] {
+  background: var(--bg-lighter) !important;
+}
+/* Buttons */
+body.dark div[style*="background: rgb(46, 170, 220);"] {
+  background: var(--main) !important;
+}
+/* hover background */
+body.dark div[style*="background: rgba(255, 255, 255, 0.1);"] {
+  background: var(--hover) !important;
+}
+/* collection view border*/
+body.dark *[style*="border: 1px solid rgb(63, 66, 69)"] {
+  border: 1px solid var(--border) !important;
+}
+body.dark *[style*="border-right: 1px solid rgb(60, 63, 67);"],
+body.dark *[style*="border-right: 1px solid rgb(63, 66, 69);"] {
+  border-right: 1px solid var(--border) !important;
+}
+body.dark *[style*="border-bottom: 1px solid rgb(63, 66, 69);"] {
+  border-bottom: 1px solid var(--border) !important;
+}
+body.dark *[style*="border-top: 1px solid rgb(63, 66, 69);"] {
+  border-top: 1px solid var(--border) !important;
+}
+
+/* scrollbar */
+body.dark .notion-scroller::-webkit-scrollbar {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: var(--bg-lighter);
+}
+body.dark .notion-scroller::-webkit-scrollbar * {
+  background: transparent;
+}
+body.dark .notion-scroller::-webkit-scrollbar-thumb {
+  background: var(--main) !important;
+  cursor: pointer;
+  border-radius: 1.6rem;
+}
+body.dark .notion-scroller::-webkit-scrollbar-track {
+  background: var(--bg-lighter);
+}
+/* Selection */
+body.dark *::selection,
+body.dark .notion-selectable-halo {
+  background: var(--selection) !important;
+}
+/* Text background, blocks background, tags background */
+body.dark *[style="background:rgba(60, 65, 68, 1)"],
+body.dark div[style*="background: rgb(60, 65, 68);"],
+body.dark div[style*="background: rgb(71, 76, 80);"] {
+  background: var(--bg-gray) !important;
+}
+body.dark *[style="background:rgba(76, 61, 53, 1)"],
+body.dark div[style*="background: rgb(76, 61, 53);"],
+body.dark div[style*="background: rgb(92, 71, 61);"] {
+  background: var(--bg-brown) !important;
+}
+body.dark *[style="background:rgba(85, 59, 41, 1)"],
+body.dark div[style*="background: rgb(85, 59, 41);"],
+body.dark div[style*="background: rgb(136, 84, 44);"] {
+  background: var(--bg-orange) !important;
+}
+body.dark *[style="background:rgba(79, 64, 41, 1)"],
+body.dark div[style*="background: rgb(79, 64, 41);"],
+body.dark div[style*="background: rgb(146, 118, 63);"] {
+  background: var(--bg-yellow) !important;
+}
+body.dark *[style="background:rgba(46, 68, 58, 1)"],
+body.dark div[style*="background: rgb(46, 68, 58);"],
+body.dark div[style*="background: rgb(50, 82, 65);"] {
+  background: var(--bg-green) !important;
+}
+body.dark *[style="background:rgba(45, 66, 86, 1)"],
+body.dark div[style*="background: rgb(45, 66, 86);"],
+body.dark div[style*="background: rgb(42, 78, 107);"] {
+  background: var(--bg-blue) !important;
+}
+body.dark *[style="background:rgba(69, 58, 91, 1)"],
+body.dark div[style*="background: rgb(69, 58, 91);"],
+body.dark div[style*="background: rgb(83, 68, 116);"] {
+  background: var(--bg-purple) !important;
+}
+body.dark *[style="background:rgba(81, 56, 77, 1)"],
+body.dark div[style*="background: rgb(81, 56, 77);"],
+body.dark div[style*="background: rgb(106, 59, 99);"] {
+  background: var(--bg-pink) !important;
+}
+body.dark *[style="background:rgba(94, 52, 54, 1)"],
+body.dark div[style*="background: rgb(94, 52, 54);"],
+body.dark div[style*="background: rgb(122, 54, 59);"] {
+  background: var(--bg-red) !important;
+}
+/*Text colors && Quotes*/
+body.dark *[style*="color:rgba(159, 164, 169, 1);"],
+body.dark *[style*="color:rgba(159, 164, 169);"] {
+  color: var(--gray) !important;
+}
+body.dark *[style*="color:rgba(212, 150, 117, 1)"],
+body.dark *[style*="color:rgba(212, 150, 117);"] {
+  color: var(--brown) !important;
+}
+body.dark *[style*="color:rgba(217, 133, 56, 1);"],
+body.dark *[style*="color:rgba(217, 133, 56);"] {
+  color: var(--orange) !important;
+}
+body.dark *[style*="color:rgba(201, 145, 38, 1);"],
+body.dark *[style*="color:rgba(201, 145, 38,);"] {
+  color: var(--yellow) !important;
+}
+body.dark *[style*="color:rgba(113, 178, 131, 1);"],
+body.dark *[style*="color:rgba(113, 178, 131);"] {
+  color: var(--green) !important;
+}
+body.dark *[style*="color:rgba(102, 170, 218, 1);"],
+body.dark *[style*="color:rgba(102, 170, 218);"] {
+  color: var(--blue) !important;
+}
+body.dark *[style*="color:rgba(176, 152, 217, 1);"],
+body.dark *[style*="color:rgba(176, 152, 217);"] {
+  color: var(--purple) !important;
+}
+body.dark *[style*="color:rgba(223, 132, 209, 1);"],
+body.dark *[style*="color:rgba(223, 132, 209);"] {
+  color: var(--pink) !important;
+}
+body.dark *[style*="color:rgba(234, 135, 140, 1);"] {
+  color: var(--red) !important;
+}

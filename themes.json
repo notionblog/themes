@@ -1,0 +1,29 @@
+{
+  "laserWave": {
+    "img": "https://avatars.githubusercontent.com/u/19436447?s=200&v=4",
+    "style": "dark",
+    "link": "https://notionstyle.github.io/notionthemes/dark/laserwave/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
+  },
+  "material": {
+    "img": "https://opencollective-production.s3.us-west-1.amazonaws.com/7aa438e0-7213-11eb-b16e-813782115056.png",
+    "style": "dark",
+    "link": "https://notionstyle.github.io/notionthemes/dark/material/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
+  },
+  "dracula": {
+    "img": "https://opencollective-production.s3.us-west-1.amazonaws.com/7aa438e0-7213-11eb-b16e-813782115056.png",
+    "style": "dark",
+    "link": "https://notionstyle.github.io/notionthemes/dark/dracula/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
+  }
+}
