@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notion Themes</title>
+  </head>
+  <body>
+    <h3>Notion Themes</h3>
+    <ul id="themes"></ul>
+
+    <script>
+      fetch("themes.json")
+        .then((response) => response.json())
+        .then((json) => {
+          const themes = Object.entries(json).map((theme) => {
+            return {
+              name: theme[0],
+              ...theme[1],
+            };
+          });
+          themes.forEach((theme) => {
+            const list = document.querySelector("#themes");
+            list.innerHTML += `<li>
+                <a href="${theme.path}" target="_blank">${
+              theme.name
+            }</a> - style: <i>${theme.style == "dark" ? "🌙" : "💡"} ${
+              theme.style
+            }</i> - maker: <i><a href="https://twitter.com/_yudax">${
+              theme.maker.name
+            }</a></i>
+                </li>`;
+          });
+        });
+    </script>
+  </body>
+</html>
