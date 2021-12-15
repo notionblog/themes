@@ -17,12 +17,13 @@ div[style*="background: linear-gradient(rgba(47, 52, 55, 0) 0px, rgb(47, 52, 55)
   background: var(--bg) !important;
 }
 /* Sider Bar, collection view blocks */
-*[style*="background: rgb(55, 60, 63);"],
+
 *[style*="background: rgb(63, 68, 71)"],
 *[style*="background-color: rgb(64, 68, 71);"] {
   background: var(--bg-light) !important;
 }
 /* Collection blocks light background */
+*[style*="background: rgb(55, 60, 63);"],
 *[style*="background: rgb(80, 85, 88)"] {
   background: var(--bg-lighter) !important;
 }
