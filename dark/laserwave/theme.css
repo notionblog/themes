@@ -2,6 +2,9 @@
   --bg: #19151e;
   --bg-light: #27212e;
   --bg-lighter: #261f2f;
+  --fg: #ffffffe6;
+  --fg-light: #ffffff99;
+  --fg-lighter: var(--fg-light);
   --main: #eb64b9;
   --hover: #eb64b970;
   --border: #3b3543;
