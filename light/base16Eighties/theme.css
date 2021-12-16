@@ -7,7 +7,7 @@
   --fg-lighter: #797978;
   --main: #f2777a;
   --hover: #ffd8d9;
-  --border: #e9e0e5;
+  --border: #dbdbdb;
   --selection: #fae2e66e;
   --gray: #1a1c23;
   --brown: #af5427;
@@ -33,5 +33,5 @@
   box-shadow: inset -1px 0 0 0 rgb(226 224 221);
 }
 .notion-topbar {
-  inset: -18px -1px 5px -1px rgb(226 224 221);
+  box-shadow: inset -18px -1px 5px -1px rgb(226 224 221);
 }
