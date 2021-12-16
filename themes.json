@@ -1,5 +1,5 @@
 {
-  "laserWave": {
+  "Laser Wave": {
     "img": "/dark/laserwave/preview.png",
     "style": "dark",
     "path": "/dark/laserwave/theme.css",
@@ -8,7 +8,7 @@
       "socialLink": "https://twitter.com/_yudax"
     }
   },
-  "material": {
+  "Material Ocean": {
     "img": "/dark/material/preview.png",
     "style": "dark",
     "path": "/dark/material/theme.css",
@@ -17,7 +17,7 @@
       "socialLink": "https://twitter.com/_yudax"
     }
   },
-  "dracula": {
+  "Dracula": {
     "img": "/dark/dracula/preview.png",
     "style": "dark",
     "path": "/dark/dracula/theme.css",
