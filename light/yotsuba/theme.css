@@ -5,10 +5,10 @@
   --fg: #4d4160;
   --fg-light: #413652;
   --fg-lighter: #594372;
-  --main: #b17cf7;
-  --hover: #dbd2f1;
+  --main: #34345c;
+  --hover: #c0c0ff82;
   --border: #e9e0e5;
-  --selection: #fae2e66e;
+  --selection: #d6daf038;
   --gray: #1a1c23;
   --brown: #af5427;
   --orange: #f77d26;
@@ -27,4 +27,7 @@
   --bg-purple: #eae4f2;
   --bg-pink: #f4dfeb;
   --bg-red: #fbe4e4;
+}
+.notion-sidebar {
+  box-shadow: inset -1px 0 0 0 rgb(226 224 221);
 }

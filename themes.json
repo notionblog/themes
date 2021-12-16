@@ -35,19 +35,19 @@
       "socialLink": "https://twitter.com/_yudax"
     }
   },
-  "horizon": {
+  "Kawaii": {
     "img": "https://opencollective-production.s3.us-west-1.amazonaws.com/7aa438e0-7213-11eb-b16e-813782115056.png",
     "style": "light",
-    "path": "/light/horizon/theme.css",
+    "path": "/light/kawaii/theme.css",
     "maker": {
       "name": "Yudax",
       "socialLink": "https://twitter.com/_yudax"
     }
   },
-  "purple": {
+  "Yotsuba": {
     "img": "https://opencollective-production.s3.us-west-1.amazonaws.com/7aa438e0-7213-11eb-b16e-813782115056.png",
     "style": "light",
-    "path": "/light/purple/theme.css",
+    "path": "/light/yotsuba/theme.css",
     "maker": {
       "name": "Yudax",
       "socialLink": "https://twitter.com/_yudax"
@@ -57,6 +57,15 @@
     "img": "https://opencollective-production.s3.us-west-1.amazonaws.com/7aa438e0-7213-11eb-b16e-813782115056.png",
     "style": "light",
     "path": "/light/base16Eighties/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
+  },
+  "Library": {
+    "img": "https://opencollective-production.s3.us-west-1.amazonaws.com/7aa438e0-7213-11eb-b16e-813782115056.png",
+    "style": "light",
+    "path": "/light/library/theme.css",
     "maker": {
       "name": "Yudax",
       "socialLink": "https://twitter.com/_yudax"
