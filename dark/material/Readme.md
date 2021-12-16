@@ -1,6 +1,6 @@
-# Dracula
+# Material Ocean
 
-![LazerWave Theme](./preview.png)
+![Material Ocean](./preview.png)
 
 ## Theme Colors
 

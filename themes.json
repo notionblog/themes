@@ -1,6 +1,6 @@
 {
   "laserWave": {
-    "img": "https://avatars.githubusercontent.com/u/19436447?s=200&v=4",
+    "img": "/dark/laserwave/preview.png",
     "style": "dark",
     "path": "/dark/laserwave/theme.css",
     "maker": {
@@ -9,7 +9,7 @@
     }
   },
   "material": {
-    "img": "https://opencollective-production.s3.us-west-1.amazonaws.com/7aa438e0-7213-11eb-b16e-813782115056.png",
+    "img": "/dark/material/preview.png",
     "style": "dark",
     "path": "/dark/material/theme.css",
     "maker": {
@@ -18,7 +18,7 @@
     }
   },
   "dracula": {
-    "img": "https://opencollective-production.s3.us-west-1.amazonaws.com/7aa438e0-7213-11eb-b16e-813782115056.png",
+    "img": "/dark/dracula/preview.png",
     "style": "dark",
     "path": "/dark/dracula/theme.css",
     "maker": {
@@ -27,7 +27,7 @@
     }
   },
   "deepDark": {
-    "img": "https://opencollective-production.s3.us-west-1.amazonaws.com/7aa438e0-7213-11eb-b16e-813782115056.png",
+    "img": "/dark/deepDark/preview.png",
     "style": "dark",
     "path": "/dark/deepDark/theme.css",
     "maker": {
@@ -36,7 +36,7 @@
     }
   },
   "Kawaii": {
-    "img": "https://opencollective-production.s3.us-west-1.amazonaws.com/7aa438e0-7213-11eb-b16e-813782115056.png",
+    "img": "/light/kawaii/preview.png",
     "style": "light",
     "path": "/light/kawaii/theme.css",
     "maker": {
@@ -45,7 +45,7 @@
     }
   },
   "Yotsuba": {
-    "img": "https://opencollective-production.s3.us-west-1.amazonaws.com/7aa438e0-7213-11eb-b16e-813782115056.png",
+    "img": "/light/yotsuba/preview.png",
     "style": "light",
     "path": "/light/yotsuba/theme.css",
     "maker": {
@@ -54,7 +54,7 @@
     }
   },
   "Base 16 Eighties": {
-    "img": "https://opencollective-production.s3.us-west-1.amazonaws.com/7aa438e0-7213-11eb-b16e-813782115056.png",
+    "img": "/light/base16Eighties/preview.png",
     "style": "light",
     "path": "/light/base16Eighties/theme.css",
     "maker": {
@@ -63,7 +63,7 @@
     }
   },
   "Library": {
-    "img": "https://opencollective-production.s3.us-west-1.amazonaws.com/7aa438e0-7213-11eb-b16e-813782115056.png",
+    "img": "/light/library/preview.png",
     "style": "light",
     "path": "/light/library/theme.css",
     "maker": {

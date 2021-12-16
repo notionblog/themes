@@ -1,6 +1,6 @@
-# Dracula
+# Deep Dark
 
-![LazerWave Theme](./preview.png)
+![Deep Dark](./preview.png)
 
 ## Theme Colors
 
