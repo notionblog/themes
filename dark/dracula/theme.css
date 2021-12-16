@@ -1,7 +1,7 @@
 :root {
-  --bg: #282a36;
+  --bg: #21232e;
   --bg-light: #21222c;
-  --bg-lighter: #44475a;
+  --bg-lighter: #282a36;
   --fg: #ffffffe6;
   --fg-light: #ffffff99;
   --fg-lighter: var(--fg-light);
