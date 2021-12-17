@@ -1,29 +1,29 @@
 /* Elements: [SideBar]*/
-.notion-light-theme div[style*="background: rgb(247, 246, 243);"] {
+.notion-light-theme div[style*="background: rgb(247, 246, 243)"] {
   background: var(--bg-lighter) !important;
 }
 
 /* Elements: [Background, CollectionViewSwitcherHeader ] */
-.notion-light-theme *[style*="background: white;"],
+.notion-light-theme *[style*="background: white"],
 .notion-light-theme *[style*="background-color: white"],
 .notion-light-theme
   div[style*="background: linear-gradient(rgba(255, 255, 255, 0) 0px, white 10px, white 100%)"],
-.notion-light-theme div[style*="background: rgb(253, 253, 253);"] {
+.notion-light-theme div[style*="background: rgb(253, 253, 253)"] {
   background: var(--bg) !important;
 }
 
 /* Collection blocks light background */
-*[style*="background: rgb(247, 246, 243);"] {
+*[style*="background: rgb(247, 246, 243)"] {
   background: var(--bg-lighter) !important;
 }
 
 /* Elements: [SVG fill gray] */
-.notion-light-theme *[style*="fill: rgba(55, 53, 47, 0.4);"] {
+.notion-light-theme *[style*="fill: rgba(55, 53, 47, 0.4)"] {
   fill: var(--fg-lighter) !important;
 }
 
 /* Elements: [SVG fill blue] */
-.notion-light-theme *[style*="fill:#2EAADC;"] {
+.notion-light-theme *[style*="fill:#2EAADC"] {
   fill: var(--main) !important;
 }
 
@@ -39,21 +39,21 @@
 *[style*="color: rgb(120, 119, 116)"] {
   color: var(--fg-lighter) !important;
 }
-.notion-light-theme *[style*="color: rgb(46, 170, 220);"],
-.notion-light-theme *[style*="color:#2EAADC;"] {
+.notion-light-theme *[style*="color: rgb(46, 170, 220)"],
+.notion-light-theme *[style*="color:#2EAADC"] {
   color: var(--main) !important;
 }
 
 /* Elements: [Main Button,Main button at hover]  */
-.notion-light-theme div[style*="background: rgb(46, 170, 220);"] {
+.notion-light-theme div[style*="background: rgb(46, 170, 220)"] {
   background: var(--main) !important;
 }
-.notion-light-theme div[style*="background: rgb(6, 156, 205);"]:hover {
+.notion-light-theme div[style*="background: rgb(6, 156, 205)"]:hover {
   background: var(--bg-lighter) !important;
 }
 
 /* hover background */
-.notion-light-theme div[style*="background: rgba(55, 53, 47, 0.08);"] {
+.notion-light-theme div[style*="background: rgba(55, 53, 47, 0.08)"] {
   background: var(--hover) !important;
 }
 
@@ -61,14 +61,14 @@
 .notion-light-theme *[style*="border: 1px solid rgb(233, 233, 231)"] {
   border: 1px solid var(--border) !important;
 }
-.notion-light-theme *[style*="border-right: 1px solid rgb(238, 238, 237);"],
-.notion-light-theme *[style*="border-right: 1px solid rgb(233, 233, 231);"] {
+.notion-light-theme *[style*="border-right: 1px solid rgb(238, 238, 237)"],
+.notion-light-theme *[style*="border-right: 1px solid rgb(233, 233, 231)"] {
   border-right: 1px solid var(--border) !important;
 }
-.notion-light-theme *[style*="border-bottom: 1px solid rgb(233, 233, 231);"] {
+.notion-light-theme *[style*="border-bottom: 1px solid rgb(233, 233, 231)"] {
   border-bottom: 1px solid var(--border) !important;
 }
-.notion-light-theme *[style*="border-top: 1px solid rgb(233, 233, 231);"] {
+.notion-light-theme *[style*="border-top: 1px solid rgb(233, 233, 231)"] {
   border-top: 1px solid var(--border) !important;
 }
 
@@ -98,84 +98,84 @@
 
 /* Text background, blocks background, tags background */
 .notion-light-theme *[style*="background:rgba(241, 241, 239, 1)"],
-.notion-light-theme *[style*="background: rgb(241, 241, 239);"],
-.notion-light-theme *[style*="background: rgb(227, 226, 224);"] {
+.notion-light-theme *[style*="background: rgb(241, 241, 239)"],
+.notion-light-theme *[style*="background: rgb(227, 226, 224)"] {
   background: var(--bg-gray) !important;
 }
 .notion-light-theme *[style*="background:rgba(244, 238, 238, 1)"],
-.notion-light-theme *[style*="background: rgb(244, 238, 238);"],
-.notion-light-theme *[style*="background: rgb(238, 224, 218);"] {
+.notion-light-theme *[style*="background: rgb(244, 238, 238)"],
+.notion-light-theme *[style*="background: rgb(238, 224, 218)"] {
   background: var(--bg-brown) !important;
 }
 .notion-light-theme *[style*="background:rgba(251, 236, 221, 1)"],
-.notion-light-theme *[style*="background: rgb(251, 236, 221);"],
-.notion-light-theme *[style*="background: rgb(250, 222, 201);"] {
+.notion-light-theme *[style*="background: rgb(251, 236, 221)"],
+.notion-light-theme *[style*="background: rgb(250, 222, 201)"] {
   background: var(--bg-orange) !important;
 }
 .notion-light-theme *[style*="background:rgba(251, 243, 219, 1)"],
-.notion-light-theme *[style*="background: rgb(251, 243, 219);"],
-.notion-light-theme *[style*="background: rgb(253, 236, 200);"] {
+.notion-light-theme *[style*="background: rgb(251, 243, 219)"],
+.notion-light-theme *[style*="background: rgb(253, 236, 200)"] {
   background: var(--bg-yellow) !important;
 }
 .notion-light-theme *[style*="background:rgba(237, 243, 236, 1)"],
-.notion-light-theme *[style*="background: rgb(237, 243, 236);"],
-.notion-light-theme *[style*="background: rgb(219, 237, 219);"] {
+.notion-light-theme *[style*="background: rgb(237, 243, 236)"],
+.notion-light-theme *[style*="background: rgb(219, 237, 219)"] {
   background: var(--bg-green) !important;
 }
 .notion-light-theme *[style*="background:rgba(231, 243, 248, 1)"],
-.notion-light-theme *[style*="background: rgb(231, 243, 248);"],
-.notion-light-theme *[style*="background: rgb(211, 229, 239);"] {
+.notion-light-theme *[style*="background: rgb(231, 243, 248)"],
+.notion-light-theme *[style*="background: rgb(211, 229, 239)"] {
   background: var(--bg-blue) !important;
 }
 .notion-light-theme *[style*="background:rgba(244, 240, 247)"],
 .notion-light-theme *[style*="background: rgba(244, 240, 247, 0.8)"],
-.notion-light-theme *[style*="background: rgb(232, 222, 238);"] {
+.notion-light-theme *[style*="background: rgb(232, 222, 238)"] {
   background: var(--bg-purple) !important;
 }
 .notion-light-theme *[style*="background: rgba(249, 238, 243, 0.8)"],
-.notion-light-theme *[style*="background: rgb(249, 238, 243);"],
-.notion-light-theme *[style*="background: rgb(245, 224, 233);"] {
+.notion-light-theme *[style*="background: rgb(249, 238, 243)"],
+.notion-light-theme *[style*="background: rgb(245, 224, 233)"] {
   background: var(--bg-pink) !important;
 }
 .notion-light-theme *[style*="background: rgba(253, 235, 236, 1)"],
-.notion-light-theme *[style*="background: rgb(253, 235, 236);"],
-.notion-light-theme *[style*="background: rgb(255, 226, 221);"] {
+.notion-light-theme *[style*="background: rgb(253, 235, 236)"],
+.notion-light-theme *[style*="background: rgb(255, 226, 221)"] {
   background: var(--bg-red) !important;
 }
 /*Text colors && Quotes*/
-.notion-light-theme *[style*="color:rgba(120, 119, 116, 1);"],
-.notion-light-theme *[style*="color:rgb(120, 119, 116);"] {
+.notion-light-theme *[style*="color:rgba(120, 119, 116, 1)"],
+.notion-light-theme *[style*="color:rgb(120, 119, 116)"] {
   color: var(--gray) !important;
 }
 .notion-light-theme *[style*="color:rgba(159, 107, 83, 1)"],
-.notion-light-theme *[style*="color: rgb(159, 107, 83);"] {
+.notion-light-theme *[style*="color: rgb(159, 107, 83)"] {
   color: var(--brown) !important;
 }
-.notion-light-theme *[style*="color:rgba(217, 115, 13, 1);"],
-.notion-light-theme *[style*="color: rgb(217, 115, 13);"] {
+.notion-light-theme *[style*="color:rgba(217, 115, 13, 1)"],
+.notion-light-theme *[style*="color: rgb(217, 115, 13)"] {
   color: var(--orange) !important;
 }
-.notion-light-theme *[style*="color:rgba(203, 145, 47, 1);"],
-.notion-light-theme *[style*="color: rgb(203, 145, 47);"] {
+.notion-light-theme *[style*="color:rgba(203, 145, 47, 1)"],
+.notion-light-theme *[style*="color: rgb(203, 145, 47)"] {
   color: var(--yellow) !important;
 }
-.notion-light-theme *[style*="color:rgba(68, 131, 97, 1);"],
-.notion-light-theme *[style*="color: rgb(68, 131, 97);"] {
+.notion-light-theme *[style*="color:rgba(68, 131, 97, 1)"],
+.notion-light-theme *[style*="color: rgb(68, 131, 97)"] {
   color: var(--green) !important;
 }
-.notion-light-theme *[style*="color:rgba(51, 126, 169, 1);"],
-.notion-light-theme *[style*="color: rgb(51, 126, 169);"] {
+.notion-light-theme *[style*="color:rgba(51, 126, 169, 1)"],
+.notion-light-theme *[style*="color: rgb(51, 126, 169)"] {
   color: var(--blue) !important;
 }
-.notion-light-theme *[style*="color:rgba(144, 101, 176, 1);"],
-.notion-light-theme *[style*="color: rgb(144, 101, 176);"] {
+.notion-light-theme *[style*="color:rgba(144, 101, 176, 1)"],
+.notion-light-theme *[style*="color: rgb(144, 101, 176)"] {
   color: var(--purple) !important;
 }
-.notion-light-theme *[style*="color:rgba(193, 76, 138, 1);"],
-.notion-light-theme *[style*="color: rgb(193, 76, 138);"] {
+.notion-light-theme *[style*="color:rgba(193, 76, 138, 1)"],
+.notion-light-theme *[style*="color: rgb(193, 76, 138)"] {
   color: var(--pink) !important;
 }
-.notion-light-theme *[style*="color:rgba(212, 76, 71, 1);"],
-.notion-light-theme *[style*="color: rgb(212, 76, 71);"] {
+.notion-light-theme *[style*="color:rgba(212, 76, 71, 1)"],
+.notion-light-theme *[style*="color: rgb(212, 76, 71)"] {
   color: var(--red) !important;
 }
