@@ -45,6 +45,7 @@
 }
 
 /* Elements: [Main Button,Main button at hover]  */
+.notion-light-theme div[style*="background: rgb(0, 141, 190)"],
 .notion-light-theme div[style*="background: rgb(46, 170, 220)"] {
   background: var(--main) !important;
 }

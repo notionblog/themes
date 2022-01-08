@@ -18,6 +18,13 @@
   background: var(--bg-lighter) !important;
 }
 
+/* Collection block at click background */
+
+.notion-dark-theme *[style*="background: rgb(88, 91, 93)"],
+.notion-dark-theme *[style*="background: rgb(61, 66, 69)"] {
+  background: var(--bg-light) !important;
+}
+
 /* Elements: [SVG fill gray] */
 .notion-dark-theme *[style*="fill: rgba(202, 204, 206, 0.6)"] {
   fill: var(--fg-lighter) !important;
@@ -47,6 +54,7 @@
 }
 
 /* Elements: [Main Button,Main button at hover]  */
+.notion-dark-theme div[style*="background: rgb(0, 141, 190)"],
 .notion-dark-theme div[style*="background: rgb(46, 170, 220)"] {
   background: var(--main) !important;
 }
