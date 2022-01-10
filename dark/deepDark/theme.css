@@ -28,3 +28,7 @@
   --bg-pink: #f33d9e4d;
   --bg-red: #7a14149f;
 }
+
+.notion-peek-renderer {
+  background: rgb(72 72 72 / 40%) !important;
+}
