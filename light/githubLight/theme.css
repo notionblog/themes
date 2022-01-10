@@ -1,6 +1,6 @@
 :root {
   --bg: #f6f8fa;
-  --bg-light: #cbc7bf;
+  --bg-light: #dfe1e3;
   --bg-lighter: #ffffff;
   --fg: #24292f;
   --fg-light: #57606a;
@@ -18,9 +18,9 @@
   --purple: #8250df;
   --pink: #e84a72;
   --red: #cf222e;
-  --bg-gray: #a9a9a9;
-  --bg-brown: #d5a992;
-  --bg-orange: #f3ba84;
+  --bg-gray: #d7d7d7;
+  --bg-brown: #ddb29b;
+  --bg-orange: #ffd4aa;
   --bg-yellow: #ffecb1;
   --bg-green: #abdfaa;
   --bg-blue: #c5e2ef;

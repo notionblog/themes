@@ -83,7 +83,7 @@
   background: transparent;
 }
 .notion-light-theme .notion-scroller::-webkit-scrollbar-thumb {
-  background: var(--bg-lighter) !important;
+  background: var(--bg-light) !important;
   cursor: pointer;
   border-radius: 1.6rem;
 }
