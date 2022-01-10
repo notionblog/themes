@@ -18,6 +18,13 @@
   background: var(--bg-lighter) !important;
 }
 
+/* Firefox collection white background fix */
+
+.notion-dark-theme
+  div[style*="rgba(0, 0, 0, 0) linear-gradient(rgba(47, 52, 55, 0) 0px, rgb(47, 52, 55) 10px, rgb(47, 52, 55) 100%) repeat scroll 0% 0%"] {
+  background: none !important;
+}
+
 /* Collection block at click background */
 
 .notion-dark-theme *[style*="background: rgb(88, 91, 93)"],

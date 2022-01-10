@@ -13,8 +13,14 @@
 }
 
 /* Collection blocks light background */
-*[style*="background: rgb(247, 246, 243)"] {
+.notion-light-theme *[style*="background: rgb(247, 246, 243)"] {
   background: var(--bg-lighter) !important;
+}
+
+/* Firefox collection white background fix */
+.notion-light-theme
+  div[style*="rgba(0, 0, 0, 0) linear-gradient(rgba(255, 255, 255, 0) 0px, white 10px, white 100%) repeat scroll 0% 0%"] {
+  background: none !important;
 }
 
 /* Elements: [SVG fill gray] */
