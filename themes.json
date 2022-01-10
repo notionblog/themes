@@ -79,5 +79,14 @@
       "name": "Yudax",
       "socialLink": "https://twitter.com/_yudax"
     }
+  },
+  "Github Light": {
+    "img": "/light/githubLight/preview.png",
+    "style": "light",
+    "path": "/light/githubLight/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
   }
 }
