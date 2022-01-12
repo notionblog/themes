@@ -5,34 +5,152 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Notion Themes</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,100;1,200;1,400&display=swap");
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+      #background {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -999;
+      }
+      .overlay {
+        background-color: #121010d6;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -800;
+      }
+
+      .container {
+        width: 100%;
+        margin: auto;
+      }
+      main {
+        text-align: center;
+        min-height: 100vh;
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+      }
+
+      main h1 {
+        font-size: 58px;
+        background: -webkit-linear-gradient(#e56384, #ffd59e);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding: 0;
+        margin: 8px;
+        margin-bottom: -23px;
+      }
+      main p {
+        font-size: 20pt;
+        color: #fff;
+      }
+      .mainBtn {
+        font-size: 16pt;
+        background: linear-gradient(45deg, #eb6786, #fbc176);
+        padding: 12px 20px;
+        border-radius: 10px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+      }
+      .mainBtn .label {
+        font-size: 13pt;
+        font-weight: normal;
+      }
+    </style>
   </head>
   <body>
-    <h3>Notion Themes</h3>
-    <ul id="themes"></ul>
-
+    <div class="overlay"></div>
+    <main>
+      <div class="container">
+        <img src="./logo.png" width="80" height="80" />
+        <h1>Notion Themes</h1>
+        <p>Make your Notion pretty using Cutom theme</p>
+        <a class="mainBtn">
+          Add To<span class="browserName"></span>
+          <span class="label">It's free</span>
+        </a>
+        <video autoplay muted id="background">
+          <source src="notionthemes.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </main>
     <script>
-      fetch("themes.json")
-        .then((response) => response.json())
-        .then((json) => {
-          const themes = Object.entries(json).map((theme) => {
-            return {
-              name: theme[0],
-              ...theme[1],
-            };
-          });
-          themes.forEach((theme) => {
-            const list = document.querySelector("#themes");
-            list.innerHTML += `<li>
-                <a href="${theme.path}" target="_blank">${
-              theme.name
-            }</a> - style: <i>${theme.style == "dark" ? "🌙" : "💡"} ${
-              theme.style
-            }</i> - maker: <i><a href="https://twitter.com/_yudax">${
-              theme.maker.name
-            }</a></i>
-                </li>`;
-          });
-        });
+      function getBrowserName() {
+        if (
+          navigator.userAgent.indexOf("Edge") > -1 &&
+          navigator.appVersion.indexOf("Edge") > -1
+        ) {
+          return "Edge";
+        } else if (
+          navigator.userAgent.indexOf("Opera") != -1 ||
+          navigator.userAgent.indexOf("OPR") != -1
+        ) {
+          return "Opera";
+        } else if (navigator.userAgent.indexOf("Chrome") != -1) {
+          return "Chrome";
+        } else if (navigator.userAgent.indexOf("Safari") != -1) {
+          return "Safari";
+        } else if (navigator.userAgent.indexOf("Firefox") != -1) {
+          return "Firefox";
+        } else if (
+          navigator.userAgent.indexOf("MSIE") != -1 ||
+          !!document.documentMode == true
+        ) {
+          //IF IE > 10
+          return "IE";
+        } else {
+          return "unknown";
+        }
+      }
+      const browserName = getBrowserName();
+      console.log(browserName);
+      const extLink = document.querySelector(".mainBtn");
+      if (browserName === "Firefox") {
+        extLink.href =
+          "https://addons.mozilla.org/en-US/firefox/addon/notion-themes/";
+      } else {
+        extLink.href =
+          "https://chrome.google.com/webstore/detail/notion-themes/pglbhommhmgieofbdbnlpcbgcdmoagfo/";
+      }
+      const browserSpan = document.querySelector(".browserName");
+
+      browserSpan.innerHTML = ` ${browserName}`;
+
+      // fetch("themes.json")
+      //   .then((response) => response.json())
+      //   .then((json) => {
+      //     const themes = Object.entries(json).map((theme) => {
+      //       return {
+      //         name: theme[0],
+      //         ...theme[1],
+      //       };
+      //     });
+      //     themes.forEach((theme) => {
+      //       const list = document.querySelector("#themes");
+      //       list.innerHTML += `<li>
+      //           <a href="${theme.path}" target="_blank">${
+      //         theme.name
+      //       }</a> - style: <i>${theme.style == "dark" ? "🌙" : "💡"} ${
+      //         theme.style
+      //       }</i> - maker: <i><a href="https://twitter.com/_yudax">${
+      //         theme.maker.name
+      //       }</a></i>
+      //           </li>`;
+      //     });
+      //   });
     </script>
   </body>
 </html>
