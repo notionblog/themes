@@ -1,9 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Notion Themes is an open-source web extension to apply custom themes to Notion, Install Notion Themes and change the overall look and feel of Notion. Select from 10+ different dark/light color schemes."
+    />
+    <!-- og -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@notionthemes" />
+    <meta name="twitter:creator" content="@_yudax" />
+    <meta property="og:title" content="Notion Themes" />
+    <meta property="og:site_name" content="NotionThemes" />
+    <meta property="og:url" content="https://notionthems.yudax.me" />
+    <meta
+      property="og:description"
+      content="Notion Themes is an open-source web extension to apply custom themes to Notion, Install Notion Themes and change the overall look and feel of Notion. Select from 10+ different dark/light color schemes"
+    />
+    <meta property="og:type" content="product" />
+    <meta property="og:image" content="./assets/og.png" />
+
     <title>Notion Themes</title>
 
     <style>
@@ -69,13 +88,33 @@
         font-size: 13pt;
         font-weight: normal;
       }
+      .notif {
+        width: 100%;
+        text-align: center;
+        min-height: 49px;
+        background-color: #da552f;
+        color: #eee;
+        position: fixed;
+        top: 0;
+        padding-top: 19px;
+        font-size: 17pt;
+      }
+      .notif a {
+        color: white;
+      }
     </style>
   </head>
   <body>
     <div class="overlay"></div>
+    <div class="notif">
+      Hi, do you like NotionThemes ? Don't forget to show your love on
+      <a href="https://www.producthunt.com/posts/notion-themes">
+        Product Hunt 🚀</a
+      >
+    </div>
     <main>
       <div class="container">
-        <img src="./logo.png" width="80" height="80" />
+        <img src="./assets/logo.png" width="80" height="80" />
         <h1>Notion Themes</h1>
         <p>Make your Notion pretty using Cutom theme</p>
         <a class="mainBtn">
@@ -83,7 +122,7 @@
           <span class="label">It's free</span>
         </a>
         <video autoplay muted id="background">
-          <source src="notionthemes.mp4" type="video/mp4" />
+          <source src="./assets/notionthemes.mp4" type="video/mp4" />
         </video>
       </div>
     </main>
@@ -123,7 +162,7 @@
           "https://addons.mozilla.org/en-US/firefox/addon/notion-themes/";
       } else {
         extLink.href =
-          "https://chrome.google.com/webstore/detail/notion-themes/pglbhommhmgieofbdbnlpcbgcdmoagfo/";
+          "https://chrome.google.com/webstore/detail/notion-themes/pglbhommhmgieofbdbnlpccdmoagfo/";
       }
       const browserSpan = document.querySelector(".browserName");
 
@@ -152,5 +191,17 @@
       //     });
       //   });
     </script>
+    <!-- 100% privacy friendly analytics -->
+    <script
+      async
+      defer
+      src="https://scripts.simpleanalyticscdn.com/latest.js"
+    ></script>
+    <noscript
+      ><img
+        src="https://queue.simpleanalyticscdn.com/noscript.gif"
+        alt=""
+        referrerpolicy="no-referrer-when-downgrade"
+    /></noscript>
   </body>
 </html>
