@@ -43,9 +43,9 @@
 }
 
 /* Elements: [Text, Table of content] */
-.notion-dark-theme *[style*="color: rgba(255, 255, 255, 0.9)"] {
+/* .notion-dark-theme *[style*="color: rgba(255, 255, 255, 0.9)"] {
   color: var(--fg) !important;
-}
+} */
 .notion-dark-theme *[style*="color: rgb(159, 164, 169)"] {
   color: var(--fg-light) !important;
 }
