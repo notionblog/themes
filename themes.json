@@ -124,5 +124,14 @@
       "name": "Yudax",
       "socialLink": "https://twitter.com/_yudax"
     }
+  },
+  "Forest": {
+    "img": "/light/forest/preview.png",
+    "style": "light",
+    "path": "/light/forest/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
   }
 }
