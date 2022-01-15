@@ -88,5 +88,14 @@
       "name": "Yudax",
       "socialLink": "https://twitter.com/_yudax"
     }
+  },
+  "Nord": {
+    "img": "/dark/githubLight/preview.png",
+    "style": "dark",
+    "path": "/dark/githubLight/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
   }
 }
