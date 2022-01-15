@@ -115,5 +115,14 @@
       "name": "Yudax",
       "socialLink": "https://twitter.com/_yudax"
     }
+  },
+  "Yin-Yang": {
+    "img": "/light/yinYang/preview.png",
+    "style": "light",
+    "path": "/light/yinYang/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
   }
 }
