@@ -90,9 +90,9 @@
     }
   },
   "Nord": {
-    "img": "/dark/githubLight/preview.png",
+    "img": "/dark/nord/preview.png",
     "style": "dark",
-    "path": "/dark/githubLight/theme.css",
+    "path": "/dark/nord/theme.css",
     "maker": {
       "name": "Yudax",
       "socialLink": "https://twitter.com/_yudax"
