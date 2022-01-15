@@ -35,13 +35,13 @@
 div[style*="font-size: 40px"],
 div[style*="font-size: 1.5em"],
 div[style*="font-size: 1.875em"] {
-  font-family: "Sacramento";
+  font-family: "Sacramento", cursive !important;
   color: #fff;
   text-shadow: 0 0 1px #fff, 0 0 10px #6e4e7d, 0 0 21px #fff, 0 0 42px #bc13fe,
     0 0 82px #210f25, 0 0 92px #bc13fe, 0 0 102px #bc13fe, 0 0 151px #bc13fe;
-  padding: 9 px 22 px;
-  border-radius: 17 px;
+  padding: 9px 22px !important;
+  border-radius: 17px !important;
   display: inline-block !important;
-  border: 2 px solid #fff;
+  border: 2px solid #fff;
   box-shadow: 0px 0px 14px 5px #643776;
 }
