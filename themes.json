@@ -106,5 +106,14 @@
       "name": "Yudax",
       "socialLink": "https://twitter.com/_yudax"
     }
+  },
+  "Dark Academia (Just for test - Don't apply it)": {
+    "img": "/dark/tokyoNight/preview.png",
+    "style": "dark",
+    "path": "/dark/darkAcademia/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
   }
 }
