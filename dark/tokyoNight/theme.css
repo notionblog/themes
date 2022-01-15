@@ -1,0 +1,47 @@
+:root {
+  --bg: #1b1826;
+  --bg-light: #24283b;
+  --bg-lighter: #17141e;
+  --fg: #d8dee9;
+  --fg-light: #d5d6db;
+  --fg-lighter: var(--fg-light);
+  --main: #b93a3f;
+  --hover: #87bfcf0d;
+  --border: #2c2a36;
+  --selection: #2eaadc40;
+  --gray: #a0a3b3;
+  --brown: #e0af68;
+  --orange: #ff9e64;
+  --yellow: #e7bb63;
+  --green: #9ece6a;
+  --blue: #7aa2f7;
+  --purple: #bb9af7;
+  --pink: #f7768e;
+  --red: #f14968;
+  --bg-gray: #5e5e5e;
+  --bg-brown: #965027;
+  --bg-orange: #8f5e15;
+  --bg-yellow: #ab861e;
+  --bg-green: #485e30;
+  --bg-blue: #34548a;
+  --bg-purple: #5a4a78;
+  --bg-pink: #8c4351;
+  --bg-red: #d14553d1;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
+/* Change heading text to Neon style */
+div[style*="font-size: 40px"],
+div[style*="font-size: 1.5em"],
+div[style*="font-size: 1.875em"] {
+  font-family: "Sacramento";
+  color: #fff;
+  text-shadow: 0 0 1px #fff, 0 0 10px #6e4e7d, 0 0 21px #fff, 0 0 42px #bc13fe,
+    0 0 82px #210f25, 0 0 92px #bc13fe, 0 0 102px #bc13fe, 0 0 151px #bc13fe;
+  padding: 9 px 22 px;
+  border-radius: 17 px;
+  display: inline-block !important;
+  border: 2 px solid #fff;
+  box-shadow: 0px 0px 14px 5px #643776;
+}

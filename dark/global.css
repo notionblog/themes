@@ -58,6 +58,7 @@
 .notion-dark-theme *[style*="color: rgb(46, 170, 220)"],
 .notion-dark-theme *[style*="color:#2EAADC"] {
   color: var(--main) !important;
+  opacity: 0.8;
 }
 
 /* Elements: [Main Button,Main button at hover]  */
@@ -66,7 +67,7 @@
   background: var(--main) !important;
 }
 .notion-dark-theme div[style*="background: rgb(6, 156, 205)"]:hover {
-  background: var(--bg-lighter) !important;
+  background: var(--main) !important;
 }
 
 /* hover background */

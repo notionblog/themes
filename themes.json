@@ -97,5 +97,14 @@
       "name": "Yudax",
       "socialLink": "https://twitter.com/_yudax"
     }
+  },
+  "Nord -- Just for test don't apply it now ;)": {
+    "img": "/dark/nord/preview.png",
+    "style": "dark",
+    "path": "/dark/tokyoNight/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
   }
 }
