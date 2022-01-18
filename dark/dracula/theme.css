@@ -28,3 +28,10 @@
   --bg-pink: #8d4a7c;
   --bg-red: #943844;
 }
+
+/* Inline Code block */
+
+span[style*="background:rgba(135,131,120,0.15)"] {
+  background: #636e7b66 !important;
+  color: #adbac7 !important;
+}

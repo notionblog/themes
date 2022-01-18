@@ -35,3 +35,9 @@
 .notion-topbar {
   box-shadow: inset -18px -1px 5px -1px #d0d7de;
 }
+
+/* Inline Code block */
+span[style*="background:rgba(135,131,120,0.15)"] {
+  color: #24292f !important;
+  background: #afb8c133 !important;
+}
