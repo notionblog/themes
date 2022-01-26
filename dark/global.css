@@ -1,5 +1,7 @@
 /* Elements: [SideBar, popup]*/
-.notion-dark-theme *[style*="background: rgb(63, 68, 71)"],
+.notion-dark-theme *[style*="background: rgb(63, 68, 71)"] {
+  background: var(--bg-light) !important;
+}
 .notion-dark-theme *[style*="background-color: rgb(64, 68, 71)"] {
   background: var(--bg-lighter) !important;
 }
