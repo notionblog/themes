@@ -133,5 +133,14 @@
       "name": "Yudax",
       "socialLink": "https://twitter.com/_yudax"
     }
+  },
+  "Notion Old Dark Theme": {
+    "img": "/dark/tokyoNight/preview.png",
+    "style": "dark",
+    "path": "/dark/notionOld/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
   }
 }

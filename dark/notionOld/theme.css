@@ -1,0 +1,30 @@
+:root {
+  --bg: rgb(47, 52, 55);
+  --bg-light: rgb(63, 68, 71);
+  --bg-lighter: rgb(64, 68, 71);
+  --fg: rgba(255, 255, 255, 0.9);
+  --fg-light: rgb(159, 164, 169);
+  --fg-lighter: rgba(25, 23, 17, 0.6);
+  --main: #2eaadc;
+  --hover: rgba(255, 255, 255, 0.1);
+  --border: rgb(63, 66, 69);
+  --selection: #2eaadc40;
+  --gray: rgba(115, 115, 115, 1);
+  --brown: rgba(212, 150, 117, 1);
+  --orange: rgba(217, 133, 56, 1);
+  --yellow: rgba(201, 145, 38, 1);
+  --green: rgba(113, 178, 131, 1);
+  --blue: rgba(102, 170, 218, 1);
+  --purple: rgba(176, 152, 217, 1);
+  --pink: rgba(223, 132, 209, 1);
+  --red: rgba(234, 135, 140, 1);
+  --bg-gray: rgba(60, 65, 68, 1);
+  --bg-brown: rgba(76, 61, 53, 1);
+  --bg-orange: rgba(85, 59, 41, 1);
+  --bg-yellow: rgba(79, 64, 41, 1);
+  --bg-green: rgba(46, 68, 58, 1);
+  --bg-blue: rgba(45, 66, 86, 1);
+  --bg-purple: rgba(69, 58, 91, 1);
+  --bg-pink: rgba(81, 56, 77, 1);
+  --bg-red: rgba(94, 52, 54, 1);
+}
