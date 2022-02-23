@@ -135,7 +135,7 @@
     }
   },
   "Notion Old Dark Theme": {
-    "img": "/dark/tokyoNight/preview.png",
+    "img": "/dark/notionOld/preview.png",
     "style": "dark",
     "path": "/dark/notionOld/theme.css",
     "maker": {

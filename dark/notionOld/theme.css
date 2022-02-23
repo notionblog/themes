@@ -1,10 +1,10 @@
 :root {
   --bg: rgb(47, 52, 55);
-  --bg-light: rgb(63, 68, 71);
-  --bg-lighter: rgb(64, 68, 71);
+  --bg-light: #373c3f;
+  --bg-lighter: #373c3f;
   --fg: rgba(255, 255, 255, 0.9);
-  --fg-light: rgb(159, 164, 169);
-  --fg-lighter: rgba(25, 23, 17, 0.6);
+  --fg-light: rgb(193 193 193);
+  --fg-lighter: rgb(159, 164, 169);
   --main: #2eaadc;
   --hover: rgba(255, 255, 255, 0.1);
   --border: rgb(63, 66, 69);
