@@ -44,6 +44,15 @@
       "socialLink": "https://twitter.com/_yudax"
     }
   },
+  "Dark Green [Beta]":{
+    "img": "/dark/githubDark/preview.png",
+    "style": "dark",
+    "path": "/dark/darkGreen/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
+  },
   "Kawaii": {
     "img": "/light/kawaii/preview.png",
     "style": "light",
