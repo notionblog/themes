@@ -1,12 +1,12 @@
 :root {
-    --bg: #060606;
-    --bg-light: #0e0f10;
-    --bg-lighter: #0e0e0e;
+    --bg: #111211;
+    --bg-light: #1a1a1a;
+    --bg-lighter: #171816;
     --fg: #ffffffe6;
-    --fg-light: #b3cf25;
+    --fg-light: #DBFC52;
     --fg-lighter: var(--fg-light);
-    --main: #579d06;
-    --hover: #498500;
+    --main: #dbfc528f;
+    --hover: #dbfc525e;
     --border: #30363d;
     --selection: #2eaadc40;
     --gray: #838789;
