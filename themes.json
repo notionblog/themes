@@ -151,5 +151,14 @@
       "name": "Yudax",
       "socialLink": "https://twitter.com/_yudax"
     }
+  },
+  "Moonlight":{
+    "img": "/dark/moonlight/preview.png",
+    "style": "dark",
+    "path": "/dark/moonlight/theme.css",
+    "maker": {
+      "name": "Abod1960",
+      "socialLink": "https://twitter.com/abod1960_"
+    }
   }
 }
