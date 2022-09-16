@@ -1,0 +1,72 @@
+:root {
+  --bg: #191f28;
+  --bg-light: #1f2730e6;
+  --bg-lighter: #1f2730;
+  --fg: #c0cedde6;
+  --fg-light: #c0cedd99;
+  --fg-lighter: #99a0a838;
+  --main: #c69f68;
+  --hover: #c69f6854;
+  --border: var(--bg-lighter);
+  --selection: #3746568a;
+  --gray: #374656;
+  --brown: #3e4152;
+  --orange: #c68768;
+  --yellow: #c6af68;
+  --green: #9fc76d;
+  --blue: #68aec6;
+  --purple: #6880c6;
+  --pink: #c66890;
+  --red: #c66868;
+  --bg-gray: #3437463D;
+  --bg-brown: #4650793D;
+  --bg-orange: #c687683D;
+  --bg-yellow: #c6af683D;
+  --bg-green: #9fc76d3D;
+  --bg-blue: #68aec63D;
+  --bg-purple: #6880c63D;
+  --bg-pink: #c668903D;
+  --bg-red: #c668683D;
+}
+
+/* Inline Code block */
+
+span[style*="background:rgba(135,131,120,0.15)"] {
+  background: #636e7b66 !important;
+  color: #adbac7 !important;
+}
+
+/* ======== bg colors ========= */
+
+div[style*="background: rgb(74, 50, 40)"] {
+  background: var(--bg-brown) !important;
+}
+
+  div[style*="background: rgb(92, 59, 35)"] {
+  background: var(--bg-orange) !important;
+}
+
+  div[style*="background: rgb(86, 67, 40)"] {
+  background: var(--bg-yellow) !important;
+}
+
+  div[style*="background: rgb(36, 61, 48)"] {
+  background: var(--bg-green) !important;
+}
+
+div[style*="background: rgb(20, 58, 78)"] {
+  background: var(--bg-blue) !important;
+}
+
+div[style*="background: rgb(60, 45, 73)"] {
+  background: var(--bg-purple) !important;
+}
+
+div[style*="background: rgb(78, 44, 60)"] {
+  background: var(--bg-pink) !important;
+}
+
+div[style*="background: rgb(82, 46, 42)"] {
+  background: var(--bg-red) !important;
+}
+/*=========*/
